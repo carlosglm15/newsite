@@ -1,0 +1,150 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Mi sitio web</title>
+		<link href = "css/styles.css" rel= "stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div class="portada">
+		<header id="header" class="header contenedor">
+			<figure class="logo">
+				<img src = "imagenes/logo.png" alt= "Logo JAVA FULL">
+			</figure>
+			<nav class = "menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#contacto">Contact</a></li>
+					<li><a href="bibliografia.html">Bibliografia</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="portada">
+			<div class="contenedor">
+				<h1 class="titulo">Carlos López</h1>
+				<h2 class="titulo-a">El trabajo bien hecho!!!</h2>
+				<button class="button"><a href="bibliografia.html">Bibliografia</a></button>
+			</div>
+		</section>
+		</div>
+		<section id="skills" class="skills contenedor">
+			<h2>Mis skills</h2>
+			<article class="skill">
+				<img class= "right" width = "250" src = "imagenes/java.png"  alt = "java">
+				<div class="contenedor-skills-a">
+					<h3 class="titulo-b">Desarrollo con java</h3>
+					<ol>
+						<li>JPA</li>
+						<li>JavaFX</li>
+						<li>JAX-WS</li>
+						<li>JAX-RS</li>
+					</ol>footer
+				</div>
+			</article>
+			<article class="skill">
+				<img class = "left" width = "350" src = "imagenes/net.png" alt = ".NET">
+				<div class="contenedor-skills-b">
+					<h3 class="titulo-b">Desarrollo con .NET</h3>
+					<ol>
+						<li>Entity Framework</li>
+						<li>LINQ</li>
+						<li>WPF</li>
+						<li>WCF</li>
+						<li>MVC, MVVM</li>
+					</ol>
+				</div>
+			</article>
+			<article class="skill">
+				<img class= "right" width = "250" src = "imagenes/apache.png"  alt = "java">
+				<div class="contenedor-skills-a">
+					<h3 class="titulo-b">Desarrollo para Servidores Apache</h3>
+					<ol>
+						<li>PHP</li>
+						<li>Phyton</li>
+						<li>JavaScript</li>
+					</ol>
+				</div>
+			</article>
+			</article>
+			<article class="skill">
+				<img class = "left" width = "250" src = "imagenes/mysql.png" alt = ".NET">
+				<div class="contenedor-skills-b">
+					<h3 class="titulo-b">Base de Datos en Mysql</h3>
+					<ol>
+						<li>Triggers</li>
+						<li>Funciones</li>
+						<li>Diseno de Base de Datos</li>
+					</ol>
+				</div>
+			</article>
+			<article class="skill">
+<<<<<<< HEAD
+				<img class= "right" width = "250" src = "imagenes/linux.png"  alt = "java">
+=======
+				<img class= "right" width = "250" src = "imagenes/Linux.png"  alt = "java">
+>>>>>>> Finalizando Pagina
+				<div class="contenedor-skills-a">
+					<h3 class="titulo-b">Soporte Servidores Linux</h3>
+					<ol>
+						<li>Ubuntu Server</li>
+						<li>Centos</li>
+						<li>Kali Linux</li>
+						<li>Parrot</li>
+					</ol>
+				</div>
+			</article>
+		</section>
+		<footer id="contacto" class="footer">
+			<div class="contenedor">
+				<div class="contacto">
+					<img src="imagenes/logo.png" width="200">
+					<a href="tel: +50235171907">
+						<strong>Telefono</strong>
+						<span>+50235171907</span>
+					</a>
+					<a href="mailto:carlosglm15@gmail.com">
+						<strong>Email</strong>
+						<span>carlosglm15@gmail.com</span>
+					</a>
+				</div>
+				<form class="formulario">
+					<div class="col1">
+						<label for="nombre">Nombre:</label>
+						<input type="texto" id="nombre" name="nombre" required/>
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email">
+						<div class="perfil">
+							<label for="junior">
+								<input type="radio" name="perfil" id="junior" value="junior" checked>Junior
+							</label>
+							<label for="senior">
+								<input type="radio" name="perfil" id="senior" value="senior">Senior
+							</label>
+						</div>
+						<div class="intereres">
+							<label for="c#">
+								<input type="checkbox" name="intereses" id="c#" value="c#">C#
+							</label>
+							<label for="vb">
+								<input type="checkbox" name="intereses" id="vb" value="vb">Vb
+							</label>
+							<label for="java">
+								<input type="checkbox" name="intereses" id="java" value="java">Java
+							</label>
+							<label for="SQL">
+								<input type="checkbox" name="intereses" id="SQL" value="SQL">SQL
+							</label>
+						</div>
+					</div>
+					<div class="col2">
+						<label for="comentario">Comentarios</label>
+						<textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+						<input type="submit" name="Enviar" class="button">
+					</div>
+				</form>
+			</div>
+		</footer>
+	</body>	
+</html>
